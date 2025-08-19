@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Rock Paper Scissors",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "rock_paper_scissors.main",
+            "cwd": "${workspaceFolder}/rock-paper-scissors",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

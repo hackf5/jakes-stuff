@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rock-paper-scissors"
+version = "0.1.0"
+description = ""
+authors = ["Brian Tyler <brian@hackf5.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+rps = "rock_paper_scissors.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

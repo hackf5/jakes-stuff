@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poker-game"
+version = "0.1.0"
+description = "A command-line Texas Hold'em poker game"
+authors = ["Brian Tyler <brian@hackf5.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+poker = "poker_game.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
