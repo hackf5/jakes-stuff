@@ -1,11 +1,11 @@
 {
     "configurations": [
         {
-            "name": "Python Debugger: Rock Paper Scissors",
+            "name": "Tina",
             "type": "debugpy",
             "request": "launch",
-            "module": "rock_paper_scissors.main",
-            "cwd": "${workspaceFolder}/rock-paper-scissors",
+            "module": "tina.main",
+            "cwd": "${workspaceFolder}/tina",
             "console": "integratedTerminal",
             "justMyCode": true
         }
